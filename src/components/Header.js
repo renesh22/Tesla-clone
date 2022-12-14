@@ -16,7 +16,7 @@ function Header() {
             </a>
             <Menu>
                 {cars && cars.map((car, index)=>(
-                    <a key={index} href="#">Model S</a>
+                    <a key={index} href="#">{car}</a>
                 ))}
             </Menu>
             <Rightmenu>
